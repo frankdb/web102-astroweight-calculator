@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Monoton");
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou");
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Monoton", sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-family: "ZCOOL QingKe HuangYou", sans-serif;
+  text-align: center;
+}
+
+.container {
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 90vh;
+  background: #4e54c8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8f94fb,
+    #4e54c8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8f94fb,
+    #4e54c8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button {
+  align-self: center;
+}

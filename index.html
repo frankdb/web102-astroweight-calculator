@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Astro Weight Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-     <!-- Write your markup here  -->
+    <div class="container">
+      <h1>Astro Weight Calculator</h1>
 
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="user-weight" type="text" placeholder="Weight (lbs)" />
+        </div>
+
+        <div class="input-field col s6">
+          <select id="planets">
+            <option value="" disabled selected>Select planet</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12">
+          <button
+            class="waves-effect waves-light btn light-blue darken-4"
+            id="calculate-button"
+          >
+            Calculate
+          </button>
+        </div>
+      </div>
+
+      <p id="output"></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>
